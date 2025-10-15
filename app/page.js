@@ -10,7 +10,7 @@ export default function Home() {
     vssUrl: "https://vss.staging.moneydevkit.com/vss",
     network: "signet",
     rgsUrl: "https://rgs.mutinynet.com/snapshot",
-    // baseUrl: "https://staging.moneydevkit.com/rpc",
+    baseUrl: "https://staging.moneydevkit.com/rpc",
   });
 
   const handlePurchase = (jokeType, amount, prompt) => {
