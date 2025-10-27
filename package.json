@@ -8,8 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "@moneydevkit/lightning-js": "^0.1.23",
-    "mdk-checkout": "^0.0.76",
+    "@moneydevkit/lightning-js": "^0.1.24",
+    "mdk-checkout": "^0.0.77",
     "next": "15.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0"
