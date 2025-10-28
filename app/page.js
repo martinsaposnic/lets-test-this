@@ -12,16 +12,7 @@ import { useCheckout } from 'mdk-checkout';
 // MDK_API_BASE_URL=http://localhost:3900/rpc
 
 export default function Home() {
-  const { navigate, isNavigating } = useCheckout({
-    baseUrl: 'http://localhost:3900/rpc',
-    lspNodeId: '0334d156dce27ac53e7fafef372382d19aa84e86db8e9d091355aa282c1f555350',
-    lspAddress: 'localhost:9735',
-    rgsUrl: 'https://rgs.mutinynet.com/snapshot',
-    esploraUrl: 'http://localhost:8080/regtest/api',
-    vssUrl: 'http://localhost:9999/vss',
-    network: 'regtest'
-  }
-  );
+  const { navigate, isNavigating } = useCheckout();
 
   const handlePurchase = (jokeType, amount, prompt) => {
     navigate({
