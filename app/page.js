@@ -12,7 +12,8 @@ import { useCheckout } from 'mdk-checkout';
 // MDK_API_BASE_URL=http://localhost:3900/rpc
 
 export default function Home() {
-  const { navigate, isNavigating } = useCheckout();
+  const { navigate, isNavigating } = useCheckout(
+  );
 
   const handlePurchase = (jokeType, amount, prompt) => {
     navigate({
