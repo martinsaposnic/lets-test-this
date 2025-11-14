@@ -1,10 +1,5 @@
 const config = {
-  plugins: [
-    [
-      "@tailwindcss/postcss",
-      {
-        optimize: false,
-      },
-    ],
-  ],
-}
+  plugins: ["@tailwindcss/postcss"],
+};
+
+export default config;
