@@ -1,3 +1,5 @@
 node_modules
 .next
 .env
+lightning-js-local.tgz
+mdk-checkout-local.tgz

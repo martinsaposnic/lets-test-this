@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev --turbopack -p 3950",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "sync:local": "node scripts/sync-local.mjs"
   },
   "dependencies": {
-    "mdk-checkout": "0.0.104",
+    "@moneydevkit/lightning-js": "file:./lightning-js-local.tgz",
+    "mdk-checkout": "file:./mdk-checkout-local.tgz",
     "next": "15.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0"
